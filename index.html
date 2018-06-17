@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Foodar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  </head>
+  <body>
+    <div class="banner">
+      <span class="close">&times;</span>
+      <a href="https://minecraft.net/en-us/" target="_blank"><img class="imgads" src="images/color-good.jpg" alt="Advertisement Banner"></a>
+    </div>
+    <header class="logo">
+      <a href="index.html"> <img src="images/logo.png" alt="Foodar Logo"></a>
+      <nav class="top-nav">
+        <ul class="top-menu">
+          <li><a class="top-site" href="#">Sign In</a></li>
+          <li>/</li>
+          <li><a class="top-site" href="register.html">Register</a></li>
+          <li>/</li>
+          <li><a class="top-site" href="request.html">Request</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="label">
+      <img class="featureimg"src="images/feature.jpg" alt="Feature Dish">
+      <div class="feature-text">
+        <h4>Try A New Meal Today</h4>
+      </div>
+    </div>
+
+    <div class="heading">
+      <h1>How It Works</h1>
+    </div>
+
+    <div class="underline"></div>
+
+    <div class="wrapper">
+      <div class="row">
+        <div class="column">
+            <img class="menuimg" src="images/menu.jpg" alt="Restaurant Menu">
+        </div>
+        <div class="column how-text">
+          <p><strong>The process is simple.</strong>We deliver whatever food you order from our partner restaurants. We provide an experience to our patrons with utmost courtesy and hospitality. Try out Foodar today!</p>
+          <ol class="o-lists">
+            <li>Order your food</li>
+            <li>Find a driver</li>
+            <li>Place pickup request</li>
+          </ol>
+          <a class="site" href="about.html"><button class="r-button" type="button" name="button">Read More</button></a>
+        </div>
+      </div>
+  </div>
+      <div class="heading">
+        <h1>Feature Restaurants</h1>
+      </div>
+
+      <div class="underline"></div>
+
+    <div class="wrapper">
+      <div class="row">
+        <div class="column restaurant-img info">
+          <img class="restaurant" src="images/fish.jpg" alt="Fish & Chips">
+          <h3 class="r-text">Fish & Chips Gallore</h3>
+          <p>Since 1968, Fish & Chips Gallore! has served the bay area with its palatable array of fried fish and sailor's choice dessert.</p>
+          <p>Order today and recieve 15% your total meal and we'll throw in our famous hush puppies as a thank you.</p>
+        </div>
+        <div class="column restaurant-img info">
+          <img class="restaurant" src="images/burger.jpg" alt="Burgers">
+          <h3 class="r-text">Burger B</h3>
+          <p>The 150g beef hamburger is freshly made by us everyday, keep it real & fresh!</p>
+          <p>Order 2 burgers and get a small fry on us today.</p>
+        </div>
+        <div class="column restaurant-img info">
+          <img class="restaurant" src="images/dessert.jpg" alt="Dessert">
+          <h3 class="r-text">What's A Scoop</h3>
+          <p>Welcome to your favorite part of dinner, lunch, breakfast, brunch, any meal. We know you don't need encouragement from us to eat our desserts. Look at the picture. You know you want it.</p>
+
+          <p>Just for you, we'll knock off 10% to make your wallet feel good too.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="findus">
+      <div class="wrapper">
+        <h3 class="findus-text">Find a driver near you!</h3>
+        <p></p>
+        <div class="input-zip">
+          <input id="zipInput" class="cityzip" type="number" name="zipcode" value="" placeholder="Enter Your ZipCode" max="99999" required>
+          <button onclick="cityChecker()" class="findcity" name="button">Go</button>
+          <p id="result"></p>
+        </div>
+      </div>
+
+
+    </div>
+
+  <footer>
+    <div class="f-row">
+      <div class="sitemap foot-menu">
+        <h3>Site Map</h3>
+        <nav>
+          <ul class="bottom-nav">
+            <li><a class="site" href="index.html">Home</a></li>
+            <li><a class="site" href="about.html">About</a></li>
+            <li><a class="site" href="register.html">Register</a></li>
+            <li><a class="site" href="request.html">Request</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="foot-menu">
+        <h3>Legal</h3>
+        <nav>
+          <ul class="bottom-nav">
+            <li><a class="site" href="#">Privacy Policy</a></li>
+            <li><a class="site" href="#">Terms & Conditions</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="foot-menu">
+        <h3>Food is Life</h3>
+        <nav>
+          <ul class="bottom-nav">
+            <li><a class="site" href="#">Contact Us</a></li>
+            <li class="social"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+            <li class="social"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+      <div class="copy">
+        <p>&copy;2018. All rights reserved.</p>
+        <p>Written and Code by Lisa Nguyen</p>
+      </div>
+
+
+  </footer>
+
+<script src="js/functions.js" type="text/javascript">
+</script>
+
+  </body>
+</html>

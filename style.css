@@ -1,0 +1,357 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-top: 6px;
+}
+
+body{
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.banner{
+  background: #F8F8F8;
+  line-height: 90px;
+  text-align: center;
+  margin-top: -19px;
+  height: 112px;
+  display: none;
+  position: fixed;
+  width: 100%;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+.close{
+  position: absolute;
+  top: -38px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.imgads{
+  max-width: 100%;
+  height: auto;
+}
+
+.logo{
+  text-align: left;
+}
+
+.heading{
+  text-align: center;
+  font-family: 'Aguafina Script', cursive;
+  font-size: 25px;
+  color: #ccad52;
+  letter-spacing: 9px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.underline{
+  height: 3px;
+  background-color: #eaeaea;
+  margin: 0 22px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 60%;
+
+    padding: 25px 0 88px;
+}
+
+.steps{
+  text-align: center;
+  padding: 20px 20px 50px;
+}
+
+.steps-header, .heading, .r-text, .feature-text, .findus-text, .totalbill {
+  text-transform: uppercase;
+}
+
+.r-text{
+  padding: 28px 0;
+}
+
+.r-input{
+  padding: 20px;
+  width: 45%;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-top: 20px;
+  border: 1px solid #f3f3f3;
+  border-radius: 6px;
+  background-color: #f3f3f3;
+  -webkit-inner-spin-button,
+  -webkit-outer-spin-button
+  -webkit-appearance: none;
+  -moz-appearance:textfield;
+}
+
+.r-button{
+  padding: 15px 27px;
+  border-radius: 6px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.r-button:hover{
+  background-color: #ccad52;
+  color: white;
+}
+
+@media (max-width:700px){
+  .r-input{
+    width: 100%;
+  }
+  .radio{
+    width: 100%;
+    display: block;
+  }
+
+}
+
+footer{
+  background-color: #202020;
+  color: white;
+  padding: 10px 0;
+  margin-top: 0;
+}
+
+.f-row{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.foot-menu{
+  width: 33%;
+  flex: 33%;
+  padding: 50px 59px;
+}
+
+.site{
+    color: white;
+    text-decoration: none;
+}
+
+.site:hover{
+  color: #F7A700;
+}
+
+.bottom-nav{
+  list-style-type: none;
+}
+
+.bottom-nav li{
+  margin: 10px 0;
+}
+
+.copy{
+  text-align: center;
+}
+
+.social{
+  display: inline;
+}
+
+.fab{
+  color: white;
+  margin: 6px;
+}
+
+.fab:hover{
+  color: #55ACEE;
+}
+
+/*HomePage*/
+.top-nav{
+  text-align: right;
+  float: right;
+  margin: 24px 21px;
+}
+
+.top-menu li{
+  display: inline;
+}
+
+.top-site{
+  text-decoration: none;
+  padding: 0 10px;
+  color: black;
+}
+
+.top-site:hover{
+  color: #bf1e2e;
+}
+
+.featureimg{
+  width: 100%;
+  background-size: cover;
+  max-height: 443px;
+}
+
+.feature-text{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: white;
+  font-size: 58px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.label{
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.column{
+  flex: 40%;
+  padding: 14px 13px;
+  max-width: 33%;
+  margin-top: -20px;
+  margin-left: -8px;
+}
+
+.menuimg{
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.how-text{
+  max-width: 59%;
+  flex: 58%;
+  padding-top: 48px;
+  margin-top: -41px;
+}
+
+.o-lists{
+  margin-top: 20px;
+  padding: 0 39px;
+}
+
+.info{
+  text-align: center;
+}
+/*Restaurant*/
+.restaurant{
+  border-radius: 33px;
+  margin-top: 30px;
+}
+
+.restaurant-img{
+  margin-right: 11px;
+}
+
+/*Find US*/
+.findus{
+  background-image: url("images/mealbg.jpg");
+  color: white;
+  text-align: center;
+  background-attachment: fixed;
+  text-shadow: 1px 0 0 black;
+}
+
+.wrapper{
+  min-height: 240px;
+  padding: 40px;
+}
+
+.input-zip{
+  width: 290px;
+  margin: 0 auto;
+}
+
+.cityzip{
+  width: 217px;
+  padding: 14px;
+  font-size: 14px;
+  border: 2px solid #D69000;
+  -webkit-inner-spin-button,
+  -webkit-outer-spin-button
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance:textfield;
+}
+
+.findcity{
+  padding: 15px;
+  background: #f7a700;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+}
+
+@media (max-width:1000px){
+  .feature-text{
+    font-size: 40px;
+  }
+  .column{
+    flex:100%;
+    max-width: 100%;
+  }
+  .menuimg{
+    align-content: center;
+  }
+}
+
+@media (max-width:700px) {
+    .feature-text{
+      font-size: 20px;
+    }
+    .heading{
+      line-height: 60px;
+      font-size: 16px;
+    }
+    .top-nav{
+      float: none;
+      text-align: center;
+    }
+    .logo{
+      text-align: center;
+    }
+    .banner{
+      height: 73px;
+    }
+}
+/*request*/
+.radio{
+  display: inline-block;
+  min-width: 30%;
+  text-align: center;
+  background: lightgrey;
+  padding: 22px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.fstyle{
+  display: block;
+  margin: auto;
+}
+
+.total{
+  padding-top: 25px;
+  text-align: center;
+}
+
+.totalbill{
+  padding: 28px 0;
+  font-size: 24px;
+}
